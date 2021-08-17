@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(61, 61, 61);
+    color: rgb(206, 206, 206);
+}
+header{
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    width: 100%;
+    height: 150px;
+}
+.heading{
+    display: inline;
+    float: left;
+    padding: 0px 10px 0px 10%;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: indigo;
+    font-size: 3em;
+    font-style: italic;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(245, 222, 179, 0.534);
+    width: 20%;
+    height: 750px;
+    box-sizing: border-box;
+    float: left;
+}
+nav li{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-bottom: 2px solid chartreuse;
+    font-size: 1.2em;
+}
+nav li:hover{
+    background-color: rgba(133, 133, 133, 0.781);
+}
+.main_sec{
+    background-color: rgba(255, 127, 80, 0.575);
+    width: 80%;
+    height: 750PX;
+    float: right;
+}
+.sec1_div{
+    width: 26%;
+    height: 300px;
+    background-color: cornflowerblue;
+    float: left;
+    margin-left: 5.4%;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    clear: both;
+    background-color: #BC70A4;
+    color: indigo;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+
+    /* Media Query */
+@media screen and (max-width: 1000px) {
+    nav{
+        height: 1100px;
+    }
+    .main_sec{
+        height: 1100px;
+    }
+    .sec1_div{
+        width: 40%;
+        margin-left: 6.6%;
+    }
+}
+@media screen and (max-width: 600px){
+    header{
+        height: 100px;
+    }
+    .heading{
+        width: 100%;
+        font-size: 2em;
+        padding: 0%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    nav{
+        width: 100%;
+        height: 190px;
+        clear: both;
+        font-size: 1em;
+    }
+    .main_sec{
+        width: 100%;
+        height: 1605px;
+        clear: both;
+    }
+    .sec1_div{
+        width: 100%;
+        height: 250px;
+        margin: 0px;
+        margin-top: 15px;
+        clear: both;
+    }
+    footer{
+        font-size: 0.7em;
+    }
+}
